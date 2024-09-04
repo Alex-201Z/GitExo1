@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>Test case à cocher : formulaire2.html</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<form action="reponse2.php" method="post">
+    Entrez votre prénom :
+    <input type="text" name="prenom" size="20" required />
+    <p>
+        Cochez cette case pour un bonjour plus familier
+        <input type="checkbox" name="familier" /></p>
+    <p>
+        <input type="radio" name="politesse" value="1" checked="checked" />
+        Madame<br />
+        <input type="radio" name="politesse" value="2" /> Monsieur<br />
+    </p>
+    <input type="submit" value="Envoyer" />
+    <input type="reset" value="Annuler" />
+</form></body>
+</html>
