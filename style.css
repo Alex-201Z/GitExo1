@@ -1,0 +1,14 @@
+.forest {
+    --background: 220 25% 10%;
+    --foreground: 100 10% 92%;
+    --primary: 145 65% 55%;
+    --primary-foreground: 145 65% 10%;
+    --accent: 45 85% 65%;
+    --accent-foreground: 45 85% 10%;
+    --secondary: 220 25% 20%;
+    --border: 220 25% 25%;
+    --ring: 145 65% 55%;
+    --radius: 0.75rem;
+    --font-body: var(--font-inter);
+    --font-headline: var(--font-space-grotesk);
+}
